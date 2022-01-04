@@ -243,10 +243,14 @@ label {
    }
 }
 
-@media screen and (max-width: 989px) {
+@media screen and (max-width: 991px) {
+   .navbar-light .navbar-toggler-icon {
+      background-image: url(./img/download.svg);
+   }
    .card {
       width: 100vw;
       position: fixed;
+      top: 30vh !important;
       left: calc(50% - 50vw);
    }
    #bg {
